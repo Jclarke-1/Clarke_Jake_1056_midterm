@@ -24,12 +24,22 @@ CSS Guide
     margin-top: 15px;
  }
 
+ ul li {
+    list-style: none;
+ }
 
 
- /* 2. Main Navigation */
+
+
+
+ /*  Main Navigation */
 
  #search {
     margin-top: 20px;
+ }
+
+ #search a {
+    text-decoration: none;
  }
  
 
@@ -63,9 +73,19 @@ CSS Guide
 
     /* Footer */
 
+    #footer-list ul li {
+        margin-bottom: 10px;
+    }
+
     #footer-nav ul li a {
         text-decoration: none;
     }
+
+    #copyright {
+        margin-top: 60px;
+        justify-items: center;
+    }
+
 
  /* Desktop Queries */
 
@@ -90,12 +110,32 @@ CSS Guide
 
  }
 
- /* 6. Tablet Queries */
+ /*  Tablet Queries */
 
  @media screen and (min-width: 768px) {
 
-     #burger-con {
-        display: block;
+    #logo {
+      
+    }
+
+    #main-nav ul li {
+    display: inline;
+    }
+
+    #burger-con {
+        position: absolute;
+    }
+
+    #burger-con ul {
+      margin-top: 35px;
+    }
+
+    #burger-con li {
+        margin-left: 10px;
+    }
+
+    #search {
+        margin-left: 40px;
     }
 
         h2 {
@@ -107,5 +147,8 @@ CSS Guide
             font-size: 17px;
         }
 
+       #footer-list {
+        justify-items: left;
+       }
  }
 
