@@ -6,6 +6,7 @@ CSS Guide
 4. Custom Queries
 5. Desktop Queries
 6. Tablet Queries
+7. Product Page
  */
 
  /* General Style Rules */
@@ -26,6 +27,10 @@ CSS Guide
 
  ul li {
     list-style: none;
+ }
+
+ #form {
+    margin-bottom: 50px;
  }
 
 
@@ -147,5 +152,85 @@ CSS Guide
        #footer-list {
         justify-items: left;
        }
+
+       #product1 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+       }
+
+       #products2 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+       }
+
+       #product3 {
+        margin-bottom: 70px;
+       }
+
+       #product4 {
+        margin-bottom: 70px;
+       }
  }
 
+ /* Product Page */
+
+ #products {
+    margin-top: 30px;
+ }
+
+ #products h3 {
+    margin-top: 60px;
+ }
+
+ #product1 {
+    width: 260px;
+    height: 300px;
+ }
+
+ #more1 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product2 {
+    margin-top: 30px;
+    width: 260px;
+    height: 300px;
+ }
+
+ #more2 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product3 {
+    margin-top: 30px;
+    width: 260px;
+    height: 300px;
+ }
+
+ #more3 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product4 {
+    margin-top: 30px;
+    width: 260px;
+    height: 300px;
+    margin-bottom: 190px;
+ }
+
+ #more4 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+ #products p a {
+    text-decoration: none;
+    color: white;
+ }
+
+ #products p a:hover {
+    color: red;
+ }
