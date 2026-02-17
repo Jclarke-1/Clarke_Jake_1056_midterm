@@ -141,6 +141,10 @@ CSS Guide
        #product4 {
         margin-bottom: 70px;
        }
+
+       #products p a {
+         margin-left: 43px;
+       }
  }
 
 
@@ -172,6 +176,21 @@ CSS Guide
         #burger-con li {
         margin-left: 10px;
     }
+
+     #products p a {
+    text-decoration: none;
+    color: white;
+ }
+
+ #products p a:hover {
+    color: red;
+ }
+
+ #products p a { 
+   margin-left: 150px;
+ }
+
+ 
 
  }
 
@@ -229,8 +248,4 @@ CSS Guide
  #products p a {
     text-decoration: none;
     color: white;
- }
-
- #products p a:hover {
-    color: red;
  }
