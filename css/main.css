@@ -15,10 +15,16 @@ CSS Guide
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
  }
 
+
+  body, p, h1, h2, h3, h4, h5 {
+   margin: 0px; 
+   padding: 0px;
+} 
+
  p {
     font-size: 15px;
     line-height: 20px;
-    margin-top: 15px;
+    margin-top: 13px;
  }
 
  ul li {
@@ -28,6 +34,8 @@ CSS Guide
  #form {
     margin-bottom: 50px;
  }
+
+
 
 
 
